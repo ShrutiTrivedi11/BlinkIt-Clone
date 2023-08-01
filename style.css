@@ -261,3 +261,10 @@ td {
 .table-1 {
     flex: 2;
 }
+
+@media (min-width: 768px) {
+    body {
+      font-size: 18px;
+      /* Add your other styles for tablets and larger screens here */
+    }
+  }
