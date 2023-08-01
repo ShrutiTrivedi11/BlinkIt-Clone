@@ -262,9 +262,20 @@ td {
     flex: 2;
 }
 
-@media (min-width: 768px) {
-    body {
-      font-size: 18px;
-      /* Add your other styles for tablets and larger screens here */
+@media (max-width: 576px) {
+    .search-bar {
+      width: 80vw;
     }
   }
+  
+  
+  @media (min-width: 577px) and (max-width: 991px) {
+    .my-scrollable-div {
+      width: 85vw;
+    }
+  
+    .my-categories {
+      width: 90vw;
+    }
+  }
+  
